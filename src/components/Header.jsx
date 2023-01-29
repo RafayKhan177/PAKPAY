@@ -30,12 +30,12 @@ const Header = () => {
           </div>
           <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-hero-section-images">
             <img
-              src="https://images.unsplash.com/photo-1674842342916-361c15254730?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+              src="https://images.unsplash.com/photo-1556742111-a301076d9d18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
               alt="img"
               className="img-fluid"
             />
             <img
-              src="https://images.unsplash.com/photo-1674842342916-361c15254730?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+              src="https://plus.unsplash.com/premium_photo-1661668451715-0edac830bcd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
               alt="img"
               className="img-fluid main-hero-img2"
             />

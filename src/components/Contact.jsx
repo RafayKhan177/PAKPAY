@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const Contact = () => {
   const img =
-    "https://images.unsplash.com/photo-1674842342916-361c15254730?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80";
+    "https://media.istockphoto.com/id/922512798/photo/business-presentation.webp?s=1024x1024&w=is&k=20&c=z-ukLstOWta4hvHgDaZDto9HqOSBUsFNZmreuqrPbIc=";
   const [userData, setUserData] = useState({
     firstName: "",
     lastName: "",
@@ -67,13 +67,13 @@ const Contact = () => {
                   <h3>
                     Contact With Our <br /> Sales Teams
                   </h3>
+                  <p className="main-hero-para">
+                    Our sales teams are dedicated to helping you find the
+                    perfect solution for your needs. Whether you're looking for
+                    information on our products and services, or are ready to
+                    make a purchase, we're here to help.
+                  </p>
                 </div>
-                <p className="main-hero-para">
-                  Our sales teams are dedicated to helping you find the perfect
-                  solution for your needs. Whether you're looking for
-                  information on our products and services, or are ready to make
-                  a purchase, we're here to help.
-                </p>
                 <figure>
                   <img src={img} alt="contact-img" className="img-fluid" />
                 </figure>

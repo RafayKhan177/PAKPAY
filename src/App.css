@@ -3,12 +3,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* transition: 0.5s; */
   scroll-behavior: smooth;
 }
 body {
   font-family: "Secular One", sans-serif;
   overflow-x: hidden;
+  background: rgb(121, 96, 189);
 }
 p {
   font-size: 0.8rem;
@@ -28,6 +28,7 @@ h5 {
   border: 1px solid rgb(255, 0, 234);
   border-radius: 1rem;
   background-color: rgb(255, 0, 234);
+  transition: 0.5s;
   color: aliceblue;
   font-size: 0.8rem;
 }
@@ -35,21 +36,15 @@ h5 {
   background-color: rgb(0, 0, 0);
   border: 1px solid rgb(255, 255, 255);
 }
-/* #icon {
-  color: rgba(255, 0, 234, 0.541);
-  font-size: 2.3rem;
-  width: 5rem;
-  height: 5rem;
-  display: grid;
-  margin: auto;
-} */
+img {
+  object-fit: cover;
+}
 /*-------------------------------------------------- Hero Section
                                               --------------------------------------------------*/
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   header .element1 {
-    margin-left: 5vw;
   }
-}
+} */
 
 header {
   /* overflow-x: none; */
@@ -116,7 +111,7 @@ header {
   font-size: 0.8rem;
 }
 
-/*-------------------------------------------------- Works Start
+/*-------------------------------------------------- How It Works Start
                                                --------------------------------------------------*/
 
 .work-container {
@@ -153,18 +148,21 @@ header {
   height: auto;
   margin: 1rem auto;
 }
-/*-------------------------------------------------- About
+/*-------------------------------------------------- About Section
                                                --------------------------------------------------*/
 @media screen and (max-width: 600px) {
-  .about .our-services-list {
+  .about .about-list {
     margin-left: 8vw;
   }
 }
-.our-services img {
+.about img {
   /* width: ; */
   height: 70%;
   margin-top: 10rem;
   border-radius: 2rem;
+}
+.about .about-no {
+  text-align: center;
 }
 /*-------------------------------------------------- Services Section
                                               --------------------------------------------------*/
@@ -172,13 +170,13 @@ header {
 @media screen and (max-width: 400px) {
   .service-main-contaiiner .work-container-subDiv {
     width: 90vw;
-    margin-left: 8vw;
   }
 }
 .service-main-contaiiner .work-container-subDiv {
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.16);
   border-radius: 0.6remservice-main-contaiiner;
   width: 20rem;
+  transition: 0.5s;
   cursor: pointer;
 }
 .service-main-contaiiner .work-container-subDiv:hover {
@@ -199,12 +197,22 @@ header {
                                               --------------------------------------------------*/
 
 @media screen and (max-width: 600px) {
-  .contact-us-leftSide {
-    margin-left: 10vw;
+  .contact-us-section .contact-us-leftSide h3 {
+    text-align: center;
+  }
+  .contact-us-leftSide p {
+    margin: 0 auto;
+    width: 80vw;
+  }
+  .contact-us-leftSide figure {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
   }
 }
 .contact-us-section {
   margin: 10rem 0;
+  /* width: 90vw; */
 }
 .contact-us-leftSide img {
   border-radius: 1rem;
@@ -253,7 +261,7 @@ footer .icon-div:hover {
   background-color: rgba(0, 0, 0, 0.685);
 }
 
-/*-------------------------------------------------- Footer Section
+/*-------------------------------------------------- Error Section
                                               --------------------------------------------------*/
 .not-found {
   width: 98vw;
