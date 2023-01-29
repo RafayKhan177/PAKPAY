@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/PAKPAY/static/css/main.cbcfeced.css",
-    "main.js": "/PAKPAY/static/js/main.d9d9fd36.js",
+    "main.css": "/PAKPAY/static/css/main.0316634d.css",
+    "main.js": "/PAKPAY/static/js/main.4e9e1833.js",
     "index.html": "/PAKPAY/index.html",
-    "main.cbcfeced.css.map": "/PAKPAY/static/css/main.cbcfeced.css.map",
-    "main.d9d9fd36.js.map": "/PAKPAY/static/js/main.d9d9fd36.js.map"
+    "main.0316634d.css.map": "/PAKPAY/static/css/main.0316634d.css.map",
+    "main.4e9e1833.js.map": "/PAKPAY/static/js/main.4e9e1833.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbcfeced.css",
-    "static/js/main.d9d9fd36.js"
+    "static/css/main.0316634d.css",
+    "static/js/main.4e9e1833.js"
   ]
 }
