@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.cbcfeced.css",
-    "main.js": "/static/js/main.d9d9fd36.js",
-    "index.html": "/index.html",
-    "main.cbcfeced.css.map": "/static/css/main.cbcfeced.css.map",
-    "main.d9d9fd36.js.map": "/static/js/main.d9d9fd36.js.map"
+    "main.css": "/PAKPAY/static/css/main.cbcfeced.css",
+    "main.js": "/PAKPAY/static/js/main.d9d9fd36.js",
+    "index.html": "/PAKPAY/index.html",
+    "main.cbcfeced.css.map": "/PAKPAY/static/css/main.cbcfeced.css.map",
+    "main.d9d9fd36.js.map": "/PAKPAY/static/js/main.d9d9fd36.js.map"
   },
   "entrypoints": [
     "static/css/main.cbcfeced.css",
