@@ -1,1 +1,1 @@
-Website is live on : https://rafaykhan177.github.io/PakPay/
+Website is live on : https://rafaykhan177.github.io/PAKPAY/
